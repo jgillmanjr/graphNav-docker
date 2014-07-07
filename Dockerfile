@@ -11,8 +11,8 @@ RUN npm install -g bower
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin
 
-# Get rid of the default app and install graphNave
-RUN rm -rf /app && git clone https://github.com/jgillmanjr/graphNav /app
+# Get rid of the default app and install graphNav in development
+RUN rm -rf /app && git clone https://github.com/jgillmanjr/graphNav -b development /app
 
 # Install dependencies
 WORKDIR /app
