@@ -1,5 +1,7 @@
-graphNav-docker
+graphNav-docker-development
 ===============
+
+## THIS WILL PULL THE DEVELOPMENT VERSION OF graphNav!!!
 
 A docker image to make using [graphNav](https://github.com/jgillmanjr/graphNav) a snap
 
