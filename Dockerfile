@@ -17,7 +17,7 @@ RUN rm -rf /app && git clone https://github.com/jgillmanjr/graphNav -b developme
 # Install dependencies
 WORKDIR /app
 
-RUN bower --allow-root install vis
+RUN bower --allow-root install
 RUN composer install
 
 EXPOSE 80
